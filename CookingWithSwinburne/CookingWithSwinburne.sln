@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookingWithSwinburne", "CookingWithSwinburne.csproj", "{F91ABDA2-9689-4918-83C4-81E502D5B387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingWithSanji", "..\TestingWithSanji\TestingWithSanji.csproj", "{8364933A-19AA-4A4C-B82F-44C033444283}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F91ABDA2-9689-4918-83C4-81E502D5B387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F91ABDA2-9689-4918-83C4-81E502D5B387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F91ABDA2-9689-4918-83C4-81E502D5B387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F91ABDA2-9689-4918-83C4-81E502D5B387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8364933A-19AA-4A4C-B82F-44C033444283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8364933A-19AA-4A4C-B82F-44C033444283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8364933A-19AA-4A4C-B82F-44C033444283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8364933A-19AA-4A4C-B82F-44C033444283}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4706E4E5-B4F1-47E6-AC2E-3E5D46E86311}
+	EndGlobalSection
+EndGlobal

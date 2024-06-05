@@ -1,0 +1,14 @@
+D:\Swinburne\SwinCookingShow\CookingWithSwinburne\bin\Debug\net6.0\CookingWithSwinburne.exe
+D:\Swinburne\SwinCookingShow\CookingWithSwinburne\bin\Debug\net6.0\CookingWithSwinburne.deps.json
+D:\Swinburne\SwinCookingShow\CookingWithSwinburne\bin\Debug\net6.0\CookingWithSwinburne.runtimeconfig.json
+D:\Swinburne\SwinCookingShow\CookingWithSwinburne\bin\Debug\net6.0\CookingWithSwinburne.dll
+D:\Swinburne\SwinCookingShow\CookingWithSwinburne\bin\Debug\net6.0\CookingWithSwinburne.pdb
+D:\Swinburne\SwinCookingShow\CookingWithSwinburne\obj\Debug\net6.0\CookingWithSwinburne.GeneratedMSBuildEditorConfig.editorconfig
+D:\Swinburne\SwinCookingShow\CookingWithSwinburne\obj\Debug\net6.0\CookingWithSwinburne.AssemblyInfoInputs.cache
+D:\Swinburne\SwinCookingShow\CookingWithSwinburne\obj\Debug\net6.0\CookingWithSwinburne.AssemblyInfo.cs
+D:\Swinburne\SwinCookingShow\CookingWithSwinburne\obj\Debug\net6.0\CookingWithSwinburne.csproj.CoreCompileInputs.cache
+D:\Swinburne\SwinCookingShow\CookingWithSwinburne\obj\Debug\net6.0\CookingWithSwinburne.dll
+D:\Swinburne\SwinCookingShow\CookingWithSwinburne\obj\Debug\net6.0\refint\CookingWithSwinburne.dll
+D:\Swinburne\SwinCookingShow\CookingWithSwinburne\obj\Debug\net6.0\CookingWithSwinburne.pdb
+D:\Swinburne\SwinCookingShow\CookingWithSwinburne\obj\Debug\net6.0\CookingWithSwinburne.genruntimeconfig.cache
+D:\Swinburne\SwinCookingShow\CookingWithSwinburne\obj\Debug\net6.0\ref\CookingWithSwinburne.dll
