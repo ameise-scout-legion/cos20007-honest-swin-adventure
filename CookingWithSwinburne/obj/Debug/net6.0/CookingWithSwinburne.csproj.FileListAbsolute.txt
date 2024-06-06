@@ -12,3 +12,4 @@ D:\Swinburne\SwinCookingShow\CookingWithSwinburne\obj\Debug\net6.0\refint\Cookin
 D:\Swinburne\SwinCookingShow\CookingWithSwinburne\obj\Debug\net6.0\CookingWithSwinburne.pdb
 D:\Swinburne\SwinCookingShow\CookingWithSwinburne\obj\Debug\net6.0\CookingWithSwinburne.genruntimeconfig.cache
 D:\Swinburne\SwinCookingShow\CookingWithSwinburne\obj\Debug\net6.0\ref\CookingWithSwinburne.dll
+D:\Swinburne\SwinCookingShow\CookingWithSwinburne\obj\Debug\net6.0\CookingWithSwinburne.sourcelink.json

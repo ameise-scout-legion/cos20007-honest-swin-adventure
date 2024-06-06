@@ -103,3 +103,4 @@ D:\Swinburne\SwinCookingShow\TestingWithSanji\obj\Debug\net6.0\refint\TestingWit
 D:\Swinburne\SwinCookingShow\TestingWithSanji\obj\Debug\net6.0\TestingWithSanji.pdb
 D:\Swinburne\SwinCookingShow\TestingWithSanji\obj\Debug\net6.0\TestingWithSanji.genruntimeconfig.cache
 D:\Swinburne\SwinCookingShow\TestingWithSanji\obj\Debug\net6.0\ref\TestingWithSanji.dll
+D:\Swinburne\SwinCookingShow\TestingWithSanji\obj\Debug\net6.0\TestingWithSanji.sourcelink.json

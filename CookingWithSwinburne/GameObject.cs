@@ -11,5 +11,6 @@
         public string Name { get => _name; }
         public string Desc { get => $"{_name}: {FirstID}"; }
         virtual public string FullDesc { get => _desc; }
+        /*virtual public GameObject Locate(string id) { if (this.AreYou(id)) return this; return null; }*/
     }
 }

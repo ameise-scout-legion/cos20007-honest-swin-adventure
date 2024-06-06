@@ -1,5 +1,6 @@
 ﻿using CookingWithSwinburne;
 using System.Numerics;
+using System.Runtime.CompilerServices;
 namespace CookingWithSanji
 {
     [TestFixture]
@@ -167,6 +168,55 @@ namespace CookingWithSanji
         public void PlayerDescription()
         {
             Assert.That(_swinStudent.FullDesc, Is.EqualTo("You are: delusion\nYou're known as: A Failure\nYou Have: queries :Never respond\n"));
+        }
+    }
+    [TestFixture]
+    public class BagTest
+    {
+        private Bag _swinInfrastructure;
+        private Bag _swinDB;
+        private Item _swinCoin;
+        private Item _drTiger;
+        [SetUp]
+        public void Setup()
+        {
+            _swinInfrastructure = new Bag(new string[] { "poor", "unavailable"}, "Poor and unavailable", "Swin Infrastructure");
+            _swinDB = new Bag(new string[] { "Injected" }, "Highly Secured website", "Swin's Database");
+            _swinCoin = new Item(new string[] { "useless", "money" }, "Even more infalted than Venezuela's", "SwinCoin");
+            _drTiger = new Item(new string[] { "ego", "agreesive", "deaf" }, "Know Mr.White's ego? This dude is even higher", "Dr. Tiger");
+            _swinInfrastructure.Inventory.AddItem(_drTiger);
+            _swinDB.Inventory.AddItem(_swinCoin);
+            _swinInfrastructure.Inventory.AddItem(_swinDB);
+        }
+        [Test]
+        public void TestBagLocatesItem()
+        {
+            Assert.That(_swinInfrastructure.Locate("ego"), Is.EqualTo(_drTiger));
+        }
+        [Test]
+        public void TestBagLocatesItself()
+        {
+            Assert.That(_swinInfrastructure.Locate("poor"), Is.EqualTo(_swinInfrastructure));
+        }
+        [Test]
+        public void TestBagNothing()
+        {
+            Assert.That(_swinInfrastructure.Locate("available"), Is.EqualTo(null));
+        }
+        [Test]
+        public void TestFullDesc()
+        {
+            Assert.That(_swinInfrastructure.FullDesc, Is.EqualTo("Item Name: Swin Infrastructure\nDescription: Poor and unavailable\nContaining: Dr. Tiger :Know Mr.White's ego? This dude is even higher\nSwin's Database :Item Name: Swin's Database\nDescription: Highly Secured website\nContaining: SwinCoin :Even more infalted than Venezuela's\n\n"));
+        }
+        [Test]
+        public void TestGetBag()
+        {
+            Assert.That(_swinInfrastructure.Locate("injected"), Is.EqualTo(_swinDB));
+        }
+        [Test]
+        public void TestItemBag2()
+        {
+            Assert.That(_swinInfrastructure.Locate("money"), Is.EqualTo(null));
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CookingWithSwinburne")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7530b7fb767b4bfd40a39b80bb0c91433b45b7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CookingWithSwinburne")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CookingWithSwinburne")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
